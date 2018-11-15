@@ -22,3 +22,6 @@ To generate WAR file to deploy, run this (the war file are found in /target fold
 
 If you only test the project, run this:
 * $ mvn tomcat6:run
+
+The main endpoint of application is:
+http://[host]:[port]/[appname]/webapi/user/
