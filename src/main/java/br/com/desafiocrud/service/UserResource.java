@@ -55,7 +55,7 @@ public class UserResource {
      * @param user
      * @return UserUpdateResponseDTO
      */
-    @PATCH
+    @PUT
     @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public UserUpdateResponseDTO update(@PathParam("id") Long id, User user) {
@@ -82,6 +82,7 @@ public class UserResource {
         }
         return new UserDeleteResponseDTO(userDeleted).build();
     }
+
 
     /**
       * @return all users
