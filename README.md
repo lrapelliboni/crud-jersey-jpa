@@ -18,6 +18,7 @@ Change the persistence.xml file settings if necessary:
 * [persistence.xml](https://github.com/lrapelliboni/crudchallenge/blob/master/src/main/resources/META-INF/persistence.xml)
 
 To generate WAR file to deploy, run this (the war file are found in /target folder):
+* $ mvn install
 * $ mvn clean package
 
 If you only test the project, run this:
@@ -25,3 +26,6 @@ If you only test the project, run this:
 
 Run tests:
 * $ mvn test -Dtest=br.com.desafiocrud.UserResourceTest
+
+The main endpoint of application is:
+http://[host]:[port]/[appname]/webapi/user/
