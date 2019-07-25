@@ -1,4 +1,4 @@
-# crudchallenge
+# crud-jersey-jpa
 crud challenge uses jersey rest, hibernate and jpa
 
 Steps to deploy (Ubuntu or Debian Like)
